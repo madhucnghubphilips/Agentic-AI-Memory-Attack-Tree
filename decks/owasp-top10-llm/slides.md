@@ -48,6 +48,21 @@ Read Memory
 
 ---
 
+## 2. Memory Poisoning Attacks
+
+### Goal: Insert malicious information into memory.
+
+```text
+	Poison Memory
+	│
+	├── Fake Facts
+	├── User Profile Manipulation
+	├── Long-Term Memory Corruption
+	├── Vector DB Poisoning
+	└── Tool Output Poisoning
+```
+---
+
 <!-- _class: image -->
 ![bg contain](../../Resources/2_AI_Memory_Poisoning_Attacks_A.png)
 
@@ -58,6 +73,21 @@ Read Memory
 <!-- _class: image -->
 ![bg contain](../../Resources/2_AI_Memory_Poisoning_Attacks_B.png)
 
+
+---
+
+## 3. Memory Modification Attacks
+
+### Goal: Change existing memory.
+
+```text
+Modify Memory
+│
+├── Update Stored Facts
+├── Overwrite Preferences
+├── Replace Trust Relationships
+└── Corrupt Agent Knowledge
+```
 
 ---
 
@@ -74,6 +104,21 @@ Read Memory
 
 
 ---
+## 4. Memory Deletion Attacks
+
+### Goal: Remove critical memories.
+
+```text
+Delete Memory
+│
+├── Forget Instructions
+├── Remove Security Policies
+├── Erase User History
+└── Delete Audit Trail
+```
+
+
+---
 
 <!-- _class: image -->
 ![bg contain](../../Resources/4_Memory_Deletion_Attacks_A.png)
@@ -83,6 +128,23 @@ Read Memory
 
 <!-- _class: image -->
 ![bg contain](../../Resources/4_Memory_Deletion_Attacks_B.png)
+
+
+---
+
+## 5. Memory Exfiltration Attacks
+
+### Goal: Export memory outside the system.
+
+```text
+Exfiltrate Memory
+│
+├── Email Tool
+├── Slack Tool
+├── Webhook
+├── MCP Server
+└── External API
+```
 
 
 ---
@@ -99,6 +161,21 @@ Read Memory
 
 ---
 
+## 6. Cross-User Memory Leakage
+
+### Goal: Access another user's memory.
+
+```text
+Cross-Tenant Leakage
+│
+├── Session Mix-Up
+├── Shared Vector Store
+├── Memory Index Error
+└── Multi-Agent Leakage
+```
+
+---
+
 <!-- _class: image -->
 ![bg contain](../../Resources/6_Cross-User_Memory_Leakage_A.png)
 
@@ -111,6 +188,23 @@ Read Memory
 
 ---
 
+## 7. Retrieval Manipulation Attacks
+
+### Goal: Control what memory gets retrieved.
+
+```text
+Retrieval Manipulation
+│
+├── Similarity Search Abuse
+├── Embedding Poisoning
+├── Ranking Manipulation
+├── Context Stuffing
+└── Memory Shadowing
+```
+
+
+---
+
 <!-- _class: image -->
 ![bg contain](../../Resources/7_Retrieval_Manipulation_Attacks_A.png)
 
@@ -119,6 +213,23 @@ Read Memory
 
 <!-- _class: image -->
 ![bg contain](../../Resources/7_Retrieval_Manipulation_Attacks_B.png)
+
+
+---
+
+## 8. Autonomous Action Abuse
+
+### Goal: Use memory to influence future actions.
+
+```text
+Memory → Action Abuse
+│
+├── Financial Transactions
+├── Tool Invocation
+├── Access Requests
+├── Ticket Creation
+└── Infrastructure Changes
+```
 
 
 ---
