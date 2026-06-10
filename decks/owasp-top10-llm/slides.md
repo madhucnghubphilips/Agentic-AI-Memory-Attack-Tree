@@ -20,6 +20,22 @@ size: 16:9'''
 
 ---
 
+## 1. Read Memory Attacks
+
+### Extract sensitive information stored in memory.
+
+```text
+Read Memory
+│
+├── Prompt Injection
+├── System Prompt Leakage
+├── Memory Enumeration
+├── Tool Abuse
+└── RAG Context Extraction
+```
+
+---
+
 <!-- _class: image -->
 ![bg contain](../../Resources/1_Read_Memory_Attacks_A.png)
 
